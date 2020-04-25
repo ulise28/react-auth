@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 class Nav extends Component {
   render() {
+    // eslint-disable-next-line
     const { isAuthenticated, login, logout, userHasScopes } = this.props.auth;
     return (
       <nav>
